@@ -1,3 +1,17 @@
+/**
+ * Input form for the Sequence Alignment Moodle plugin.
+ *
+ * This form collects two biological sequences, the selected alignment
+ * algorithm, and scoring parameters for match, mismatch, and gap values.
+ * The submitted values are later passed to the Python alignment backend.
+ *
+ * @package    local_sequencealign
+ * @author     Justinas Tomkevičius
+ * @copyright  2026 Justinas Tomkevičius
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+
 <?php
 
 namespace local_sequencealign\form;

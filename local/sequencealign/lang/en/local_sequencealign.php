@@ -1,3 +1,16 @@
+/**
+ * English language strings for the Sequence Alignment Moodle plugin.
+ *
+ * This file defines the text labels used by the plugin interface,
+ * including form fields, algorithm names, result headings, and validation
+ * messages.
+ *
+ * @package    local_sequencealign
+ * @author     Justinas Tomkevičius
+ * @copyright  2026 Justinas Tomkevičius
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 <?php
 
 $string['pluginname'] = 'Sequence Alignment';

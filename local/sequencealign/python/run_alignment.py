@@ -1,3 +1,25 @@
+"""
+run_alignment.py
+
+Command-line interface for the Sequence Alignment Moodle plugin.
+
+This script receives input from the Moodle PHP layer through command-line
+arguments, runs the selected sequence alignment algorithm, and returns the
+result as JSON. The JSON output is decoded by the Moodle plugin and used to
+display the score matrix, traceback matrix, aligned sequences, optimal score,
+and traceback path.
+
+Supported algorithms:
+    - Needleman-Wunsch global alignment (--algorithm nw)
+    - Smith-Waterman local alignment (--algorithm sw)
+
+Author: Justinas Tomkevičius
+Course paper: Interaktyvių bioinformatikos mokymosi modulių kūrimas Moodle mokymosi aplinkoje
+Year: 2026
+"""
+
+
+
 import argparse
 import json
 import sys

@@ -1,3 +1,19 @@
+/*
+ * styles.css
+ *
+ * Visual styling for the Sequence Alignment Moodle plugin.
+ *
+ * This stylesheet defines the layout of the interactive sequence alignment
+ * page, including the two-column interface, input card, result cards, score
+ * matrix, nucleotide coloring, traceback highlighting, matrix legend,
+ * alignment display, and traceback animation controls.
+ *
+ * Author: Justinas Tomkevičius
+ * Course paper: Interaktyvių bioinformatikos mokymosi modulių kūrimas Moodle mokymosi aplinkoje
+ * Year: 2026
+ */
+
+
 .path-local-sequencealign .alignment-matrix-wrapper {
     width: 100%;
     overflow-x: auto;

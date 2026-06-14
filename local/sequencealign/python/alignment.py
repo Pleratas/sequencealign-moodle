@@ -1,20 +1,29 @@
 """
 alignment.py
-============
-Educational implementation of two classic sequence alignment algorithms:
-  - Needleman-Wunsch  (global alignment, 1970)
-  - Smith-Waterman    (local alignment,  1981)
 
-Both algorithms use dynamic programming (DP).
-Every intermediate step is stored and returned so that a Moodle plugin
-(or any front-end) can later visualise the matrix fill-in and the traceback.
+Core sequence alignment algorithms for the Sequence Alignment Moodle plugin.
 
-Allowed nucleotide symbols
---------------------------
-A, C, G, T  – standard DNA bases
-U           – uracil (RNA); accepted so that textbook examples such as
-              "GCATGCU" can be used without extra pre-processing.
-Sequences are case-insensitive; they are uppercased internally.
+This module implements two dynamic-programming algorithms used in
+bioinformatics education:
+
+    - Needleman-Wunsch global sequence alignment
+    - Smith-Waterman local sequence alignment
+
+Both algorithms return all data needed by the Moodle visualization layer:
+score matrices, traceback matrices, optimal scores, aligned sequences, scoring
+parameters, and traceback paths. The implementation is intentionally written
+in an educational style so that the algorithmic steps can be explained and
+visualized in an interactive learning environment.
+
+Accepted nucleotide symbols:
+    A, C, G, T - DNA bases
+    U          - RNA uracil, accepted for common textbook examples
+
+Sequences are case-insensitive and are normalized internally.
+
+Author: Justinas Tomkevičius
+Course paper: Interaktyvių bioinformatikos mokymosi modulių kūrimas Moodle mokymosi aplinkoje
+Year: 2026
 """
 
 from dataclasses import dataclass, field

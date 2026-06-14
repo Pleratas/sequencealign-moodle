@@ -1,3 +1,18 @@
+/**
+ * Main page for the Sequence Alignment Moodle plugin.
+ *
+ * This page displays the sequence alignment form, receives user input,
+ * executes the Python backend, decodes the JSON response, and renders
+ * the alignment results, score matrix, traceback path, and interactive
+ * traceback animation.
+ *
+ * @package    local_sequencealign
+ * @author     Justinas Tomkevičius
+ * @copyright  2026 Justinas Tomkevičius
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+
 <?php
 
 require_once(__DIR__ . '/../../config.php');
