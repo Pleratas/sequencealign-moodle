@@ -1,3 +1,5 @@
+<?php
+
 /**
  * Input form for the Sequence Alignment Moodle plugin.
  *
@@ -11,8 +13,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
-<?php
 
 namespace local_sequencealign\form;
 

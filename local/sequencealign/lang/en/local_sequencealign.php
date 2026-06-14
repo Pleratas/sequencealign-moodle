@@ -1,3 +1,5 @@
+<?php
+
 /**
  * English language strings for the Sequence Alignment Moodle plugin.
  *
@@ -10,8 +12,6 @@
  * @copyright  2026 Justinas Tomkevičius
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-<?php
 
 $string['pluginname'] = 'Sequence Alignment';
 
