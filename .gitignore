@@ -1,31 +1,31 @@
-# OS files
+# Operating system files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# IDE/editor files
+# Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# Moodle/local generated files
-moodledata/
+# Logs
 *.log
 
-# Docker/local environment
+# Environment files
 .env
-docker-data/
-db-data/
+.env.*
 
 # Archives
 *.zip
 *.tar
-*.gz
+*.tar.gz
+*.tgz
 
-# Temporary files
-tmp/
-temp/
+# Dependency folders if created locally
+vendor/
+node_modules/
